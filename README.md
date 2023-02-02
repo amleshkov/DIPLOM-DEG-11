@@ -23,12 +23,14 @@
 
 Для запуска стенда необходимо склонироват репозиторий и выполнить `docker-compose up`.
 **Реквизиты для подключения к сервисам**
+
 | Сервис     | Подключение               | Логин | Пароль   |
 |------------|---------------------------|-------|----------|
 | postgres   | localhost:5432/dwh        | dwh   | dwh      |
 | clickhouse | localhost:8321/sales_mart | bi    | password |
 | airflow    | http://localhost:8080     | admin | admin    |
 | superset   | http://localhost:8088     | admin | admin    |
+
 После завершения запуска стенда необходимо зайти в интерфейс Airflow по ссылке
 http://localhost:8080 с логином admin и паролем admin, затем активировать DAG "ETL" (переключатель Pause/Unpause DAG) и дождаться завершения процесса загрузки.
 
