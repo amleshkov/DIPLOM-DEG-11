@@ -144,7 +144,11 @@ http://localhost:8080 с логином admin и паролем admin, зате�
 
 ### Ссылки на используемые материалы <a name="reference"></a>
 https://hub.docker.com/_/postgres
+
 https://github.com/mrts/docker-postgresql-multiple-databases
+
 https://hub.docker.com/r/clickhouse/clickhouse-server
+
 https://towardsdatascience.com/apache-airflow-and-postgresql-with-docker-and-docker-compose-5651766dfa96
+
 https://superset.apache.org/docs/installation/installing-superset-using-docker-compose/
