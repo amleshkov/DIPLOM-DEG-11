@@ -19,6 +19,7 @@
 * экземпляры airflow-webserver и airflow-scheduler - оркестратор ETL
 * экземпляры superset-app, superset-worker, superset-worker-beat - BI инструмент
 * экземпляр Redis - кеш для результатов Superset
+
 Также автоматически настроены все необходимые интеграции и установка библиотек
 
 Для запуска стенда необходимо склонироват репозиторий и выполнить `docker-compose up`.
