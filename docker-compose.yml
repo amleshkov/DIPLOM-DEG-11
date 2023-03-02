@@ -1,4 +1,4 @@
-x-superset-image: &superset-image apache/superset:latest-dev
+x-superset-image: &superset-image apache/superset:2-1-dev
 x-superset-depends-on: &superset-depends-on
   - postgres
   - redis
